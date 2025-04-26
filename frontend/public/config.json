@@ -1,18 +1,18 @@
 {
   "personal": {
-    "name": "Alon Trugman",
-    "email": "alon.xt@gmail.com",
-    "profileImageAlt": "Alon Trugman"
+    "name": "Fabri Arzaguet",
+    "email": "fabrix@duck.com",
+    "profileImageAlt": "Fabri Arzaguet"
   },
   "social": {
     "github": {
-      "url": "https://github.com/alonxt"
+      "url": "https://github.com/fabrixar7"
     },
     "linkedin": {
-      "url": "https://linkedin.com/in/alon-trugman"
+      "url": "https://linkedin.com/in/fabrixarsaguet"
     },
     "email": {
-      "url": "mailto:alon.xt@gmail.com"
+      "url": "mailto:fabrix@duck.com"
     }
   },
   "content": {
@@ -41,7 +41,7 @@
     }
   },
   "chat": {
-    "inputPlaceholder": "Ask me anything about Alon...",
-    "initialMessage": "Hey there! 👋 I'm Alon's AI assistant, I have access to his writings, and life insights. Feel free to ask and explore about his professional path or personal growth!"
+    "inputPlaceholder": "Ask me anything about Fabrix...",
+    "initialMessage": "Hey there! 👋 I'm Fabri'x AI assistant, I have access to his writings, and life insights. Feel free to ask and explore about his professional path or personal growth!"
   }
 } 
