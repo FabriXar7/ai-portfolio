@@ -1,21 +1,21 @@
-# Interactive AI Portfolio 🤖
+# Portafolio interactivo de IA 🤖
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-Create your own engaging, AI-powered conversation portfolio. This open-source project enables developers to create interactive portfolios where visitors can have meaningful conversations with an AI assistant that knows about your work, experience, and expertise.
+Crea tu propio portafolio de conversaciones atractivo, impulsado por IA. Este proyecto de código abierto permite a los desarrolladores crear portafolios interactivos donde los visitantes pueden mantener conversaciones significativas con un asistente de IA que conoce tu trabajo, experiencia y conocimientos.
 
-## ✨ Key Features
+## ✨ Características principales
 
-- 🤖 **Interactive AI Assistant**: Engage visitors with personalized, context-aware conversations
-- 🚀 **Real-time Streaming**: Fluid, chat-like experience with streaming responses
-- 🎨 **Modern UI**: Clean, responsive design focused on conversation
-- 🔄 **Easy to Customize**: Create your own from template and modify for your personal brand
-- 🛠 **Modular Architecture**: Built for maintanability and easy extension
+- 🤖 **Asistente interactiva de inteligencia artificial**: Involucre a los visitantes con conversaciones personalizadas y adaptadas al contexto.
+- 🚀 **Transmisión en tiempo real**: Experiencia fluida, similar a un chat, con respuestas en tiempo real
+- 🎨 **Interfaz de usuario moderna**: Diseño limpio y responsivo centrado en la conversación.
+- 🔄 **Fácil de personalizar**: Crea tu propia plantilla y modifícala para tu marca personal.
+- 🛠 **Arquitectura modular**: Diseñado para facilitar su mantenimiento y ampliación.
 
-## 🏗 Architecture
+## 🏗 Arquitectura
 
 ```mermaid
 graph LR
@@ -25,31 +25,32 @@ graph LR
     B --> E[Redis Cache]
 ```
 
-### Tech Stack
+### Tecnologia
 
 - **Frontend**: React + Vite, TailwindCSS, Framer Motion
 - **Backend**: FastAPI, PostgreSQL + pgvector, Redis
 
 
-## 🚀 Quick Start
+## 🚀 Inicio rápido
 
-1. Create a new repository from this template and clone it
-2. Add the necessary files to frontend/public and change the config.json file to your own content - [Config Setup Guide](frontend/CONFIGURATION.md)
-2. Run "docker compose build" and then "docker compose up" to start the containers and enjoy it on [localhost](http//:localhost:3000)
-3. Deploy to [fly.io](fly.io) or set up locally- [Backend Setup Guide](backend/README.md)
-4. Deploy to [vercel.com](vercel.com) or set up locally- [Frontend Setup Guide](frontend/README.md)
+1. Crea un nuevo repositorio a partir de esta plantilla y clónalo.
+2. Agrega los archivos necesarios a frontend/public y modifica el archivo config.json con tu propio contenido: [Guía de configuración de la configuración](frontend/CONFIGURATION.md).
+2. Ejecuta "docker compose build" y luego "docker compose up" para iniciar los contenedores y disfrutarlos en [localhost](http//:localhost:3000).
+3. Implementa en [fly.io](fly.io) o configura localmente: [Guía de configuración del backend](backend/README.md).
+4. Implementa en [vercel.com](vercel.com) o configura localmente: [Guía de configuración del frontend](frontend/README.md).
 
 
-## 🤝 Contributing
+## 🤝 Contribuyendo
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+¡Agradecemos sus contribuciones! No dude en enviar una solicitud de incorporación de cambios.
 
-## 📝 License
+## 📝 Licencia
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Este proyecto está licenciado bajo la licencia MIT: consulte el archivo [LICENSE](LICENSE) para obtener más detalles.
 
 
 <div align="center">
-Made with ❤️ by Alon Trugman
+Gracias a Alon Trugman por este gran trabajo.
+Traduccion al español y modificaciones Fabri Arzaguet.
 </div>
 
