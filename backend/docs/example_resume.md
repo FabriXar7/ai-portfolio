@@ -1,37 +1,38 @@
-ALON TRUGMAN - WORK EXPERIENCE
-### Wix.com - Backend Engineer *Sep 2023 - Sep 2024*
-Focused on Git DevEx infra that increases cadence and security across the company.
-* Refactored a suite of Scala services from scratch while maintaining backward compatibility, which eliminated human errors and increased security by creating new gRPC APIs, utilizing MySQL, monitoring with Grafana & Prometheus, and production debugging using Rookout.
-* Integrated with external services via webhooks, converted them to Kafka events, processed, stored, and handled data at scale, while using OAuth for authorization.
+FABRI ARZAGUET - EXPERIENCIA DE TRABAJO 
 
-### Planckdata (Acquired by Applied Systems) - Backend Engineer *Dec 2021 - Sep 2023*
-We provided platform for insurance underwriters powered by public data, ML and LLMs.
-* Led a cost evaluation initiative that resulted in a 28% cost reduction by monitoring and analyzing external API calls using Java, RabbitMQ, Airflow DAGs, S3, and Postgres.
-* Designed and implemented a Data Quality project yielding a 20% boost in quality and improved end-user satisfaction by tracking data collection issues using Java, RabbitMQ & DynamoDB.
-* Developed a load test for the data collection system resulting in a 10% increase in speed by identifying bottlenecks and improving efficiency using Python and RESTful APIs.
-* Migrated Elasticsearch and Kibana cluster from Elastic to AWS OpenSearch.
-* Worked with our Kubernetes cluster, proficient in Docker and Terraform, and implemented CI/CD pipelines using GitLab for streamlined deployment processes.
+### Tenfield, GolTV, VTV- Soporte Tecnico *May 2012 - now*
+Sistemas de automatización, Channel in a Box, Servidores de video, Orquestación de flujos de trabajo, Dublist, Conciliación, Codificación de video, Topologías de redes de transmisión, Infraestructura y topología de redes de TI, Flujos de trabajo basados ​​en archivos, Gráficos, Preparación/Propuesta de soluciones según los requisitos del cliente, Demostraciones de productos, Formatos de video, Gestión de activos multimedia, Gestión de activos digitales, Sistemas de almacenamiento y archivo, Tecnologías cliente/servidor, Compresión, Automatización de flujos de trabajo, Transformación de metadatos, Análisis de flujos de trabajo, Conversión de medios, Cumplimiento de pruebas de concepto, Entrega de medios OTT (Over-the-Top), Transcodificación de video, Transcodificación de video a pedido (VOD) IPTV...
 
-### Planckdata (Acquired by Applied Systems) - Solutions Data Analyst *Feb 2021 - Dec 2021*
-* Transformed customer usage data into actionable insights, wrote automation scripts using Python over Elasticsearch, Monday & Google Sheets and analyzed product performance.
-* Collaborated with Sales, CS, and Product teams for optimal sales cycle execution and often joined customer meetings. Prepared concise reports for clients and management.
+### INDRA - Analista Desarrollador *May 2011 - Jun 2012*
+Diseños técnicos en Open Utilities Customers (ARQv10)
+Proyecto de desarrolo para Aqualia
+* Analisis de los modulos de acometida y pagos online.
 
-### Beilinson Hospital - Data Science Research Assistant *Jul 2020 - Jul 2021*
-* Selected as one of two students excelling in the Data Science course.
-* Established the Python infrastructure that analyzes ICU patient nutritional data using Jupyter Notebook, Pandas, Scikit-learn and Pycaret.
-* Focused on predicting mortality chances, I conducted extensive exploratory data analysis, data preprocessing, and executed ML models to predict and evaluate potential patient events.
+### Memory Internacional - Programador Desarrollador *Ene 2004 - May 2011*
+Desarrollo de software de gestión, en Delphi, foxpro, SQL, C#
+* Inicie como soporte tecnico telefonico, luego pase a soporte tecnico a la empresa en persona.
+* Como segunda etapa entre en el departamento de desarrollo, desarrollando rutinas especificas y modulos para las aplicaciones Worky y Figaro.
 
-### SafeHouse Technologies - Product Manager *Jul 2019 - Jul 2020*
-* Managed the implementation of Mixpanel analytics, enabling data-driven decision-making.
-* Collaborated with designers to work on the product's UI/UX using Figma & InVision.
-* Created a marketing plan utilizing Firebase and Google Ads.
-* Shaped the long-term vision and strategy for the company's product and features.
+### Cadena Barcelo Hoteles - Especialista en Redes de TI *Jul 1998 - Jul 2002*
+* Mantenimiento, configuración y administración de Windows Server 2000
+* Mantenimiento, configuración, administración y servicio de dispositivos de almacenamiento
+* Mantenimiento, configuración, administración y servicio de bases de datos SQL (SQL 2000)
+* Mantenimiento y configuración de Linux
 
-### EDUCATION
-* B.SC In Industrial Engineering & Management | Ariel University *Jul 2017 - Jul 2021*
-* Major in Data science | Graduated with Distinction (Magna Cum Laude)
+### Onduler S.A - Especialista en Redes de TI *Jul 1998 - Jul 2002*
+* Mantenimiento, configuración y administración de Windows Server 2000
+* Mantenimiento, configuración, administración y servicio de dispositivos de almacenamiento
+* Mantenimiento, configuración, administración y servicio de bases de datos SQL (SQL 2000)
+* Mantenimiento y configuración de Linux
 
-### ADDITIONAL INFORMATION
-* Army Duty: Shayetet 13, Combat Fighter on course release due to medical reasons
-* Volunteering: Mentor in Kravi-Tech & Genesis, guide people in finding a job in Hightech plus activist in israel 2050 movement
-* Activities: Participated in TAU debate club
+### EDUCACION
+* Electronica | ORT University *Mar 2002 - Nov 2004*
+* Electronica informatica, assembler, programacion de microcontroladores, audio y video procesos.
+* MCSA SQL Server **
+* Especialista de soporte IT Goolge *2020*
+* Certificacion Dante nivel 3 *2021*
+
+### INFORMACION ADICIONAL 
+* Pasatiempos: Leer. Desarrollos de domotica, laboratorio de redes, proxmox, mokrotik, docker.
+* Voluntariado: Causas por mejorar ecosistemas naturales.
+* Actividades: Tecnicas de aikido, bonzai, carigrafia japonesa.
