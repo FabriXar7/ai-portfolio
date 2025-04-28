@@ -1,82 +1,82 @@
-# React Frontend Service 🎨
+# Servicio Frontend React  🎨
 
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 
-## 🚀 Local Setup Instructions
+## 🚀 Instrucciones de configuración local
 
-1. Ensure Node.js 20.x is installed
+1. Asegurese que Node.js 20.x esta instalado
 
-2. Install dependencies:
+2. Instalar dependencias:
    ```bash
    npm install
    ```
 
-3. Configure environment:
+3. Configurar entorno:
    ```bash
-   # Create .env file with:
-   VITE_BACKEND_URL=http://localhost:8000  # or your backend URL
+   # Crear archivo .env con:
+   VITE_BACKEND_URL=http://localhost:8000  # o tu backend URL
    ```
 
-4. Add your personal content:
+4. Agrega tu contenido personal:
    - Add `about-me.md` to public folder
    - Add `icon.svg` to public folder
    - Add `profile.jpg` to public folder
    - Update `config.json` following the [Config Setup Guide](CONFIGURATION.md)
 
-5. Start development server:
+5. Iniciar servidor de desarrollo:
    ```bash
    npm run dev
    ```
 
-6. Visit http://localhost:5173 to view the app 🎉
+6. Visite http://localhost:5173 para ver la aplicacion 🎉
 
-## 🛠 Development Scripts
+## 🛠 Scripts de desarrollo
 
 ```bash
-# Start development server
+# Iniciar servidor de desarrollo
 npm run dev
 
-# Build for production
+# Construir para producción
 npm run build
 
-# Preview production build
+#Vista previa de la versión de producción
 npm run preview
 ```
 
-## 🧪 Testing
+## 🧪 Pruebas
 
-This project uses Vitest and React Testing Library for unit testing. Tests are organized alongside their components.
+Este proyecto utiliza Vitest y la biblioteca de pruebas React para realizar pruebas unitarias. Las pruebas se organizan junto con sus componentes.
 
-### Running Tests
+### Ejecución de pruebas
 
 ```bash
-# Run all tests
+# Ejecutar todas las pruebas
 npm test
 
-# Run tests in watch mode
+# Ejecutar pruebas en modo vistas
 npm run test:watch
 
-# Run tests with coverage
+# Ejecutar pruebas con cobertura
 npm test -- --coverage
 ```
 
-## 🚀 Deployment on Vercel
+## 🚀 Desarrollo en Vercel
 
-1. Create an account on [Vercel.com](https://vercel.com)
+1. Crear una cuenta en [Vercel.com](https://vercel.com)
 
-2. Create a new project and connect to your repository
+2. Crea un nuevo proyecto y conéctate a tu repositorio
 
-3. Configure environment variables:
+3. Configurar variables de entorno:
    ```bash
    VITE_BACKEND_URL=https://your-backend-url
    ```
 
-4. Deploy! Your app will be available at https://your-project-name.vercel.app 🎉
+4. ¡Implementa! Tu aplicación estará disponible en https://your-project-name.vercel.app 🎉
 
-## 🛠 Tech Stack
+## 🛠 Tecnologia
 
 - React 18
 - Vite
