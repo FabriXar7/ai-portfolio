@@ -1,25 +1,25 @@
-# Build stage
+# Etapa de construcción
 FROM node:20-slim AS builder
 
-# Set working directory
+# Establecer directorio de trabajo
 WORKDIR /app
 
-# Copy package files
+# Copiar archivos de paquetes
 COPY package*.json ./
 
-# Install dependencies
+# Instalar dependencias
 RUN npm ci
 
-# Copy the rest of the application
+# Copiar el resto de las aplicaciones
 COPY . .
 
-# Build the application
+# Desarrollar la aplicacion
 RUN npm run build
 
-# Production stage
+# Etapa de Producion
 FROM nginx:alpine
 
-# Copy custom nginx config to handle SPA routing
+# Copiar comun nginx configuracion para manejar ruteo SPA 
 RUN echo 'server { \
     listen 80; \
     location / { \
@@ -29,11 +29,11 @@ RUN echo 'server { \
     } \
 }' > /etc/nginx/conf.d/default.conf
 
-# Copy built assets from build stage
+# Copiar activos construidos desde la etapa de construcción
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Expose port 80
+# Exponer puerto 80
 EXPOSE 80
 
-# Start nginx
+# Iniciar nginx
 CMD ["nginx", "-g", "daemon off;"]
