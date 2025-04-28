@@ -1,6 +1,6 @@
 FABRI ARZAGUET - EXPERIENCIA DE TRABAJO 
 
-### Tenfield, GolTV, VTV- Soporte Tecnico *May 2012 - now*
+### Tenfield, GolTV, VTV- Soporte Tecnico *May 2012 - hoy*
 Sistemas de automatización, Channel in a Box, Servidores de video, Orquestación de flujos de trabajo, Dublist, Conciliación, Codificación de video, Topologías de redes de transmisión, Infraestructura y topología de redes de TI, Flujos de trabajo basados ​​en archivos, Gráficos, Preparación/Propuesta de soluciones según los requisitos del cliente, Demostraciones de productos, Formatos de video, Gestión de activos multimedia, Gestión de activos digitales, Sistemas de almacenamiento y archivo, Tecnologías cliente/servidor, Compresión, Automatización de flujos de trabajo, Transformación de metadatos, Análisis de flujos de trabajo, Conversión de medios, Cumplimiento de pruebas de concepto, Entrega de medios OTT (Over-the-Top), Transcodificación de video, Transcodificación de video a pedido (VOD) IPTV...
 
 ### INDRA - Analista Desarrollador *May 2011 - Jun 2012*
