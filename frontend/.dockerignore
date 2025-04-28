@@ -7,26 +7,26 @@ app.egg-info
 htmlcov
 .venv
 
-# Dependencies
+# Dependencias
 node_modules
 npm-debug.log
 yarn-debug.log
 yarn-error.log
 
-# Testing
+# Pruebas
 coverage
 .nyc_output
 
-# Build
+# Desarrollo
 dist
 build
 
-# Environment
+# Entorno
 .env
 .env.local
 .env.*.local
 
-# Editor directories and files
+# Editor directorios y archivos
 .idea
 .vscode
 *.suo
@@ -35,6 +35,6 @@ build
 *.sln
 *.sw?
 
-# System Files
+# Sistemas de Archivos
 .DS_Store
 Thumbs.db
