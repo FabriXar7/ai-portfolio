@@ -1,7 +1,2 @@
-Hi, I'm Fabri Arzaguet As a software developer with a passion for startups, I thrive when turning ideas into impactful products. 
-At Wix, I improved developer experience & securtiy through Git infrastructure solutions. 
-Previously at Planck (now Applied Systems), I built scalable data processing systems that transformed insurance industry data.
-My background in Industrial Engineering and Data Science brings an analytical perspective to engineering challenges. 
-I specialize in modern tech stacks and excel at simplifying complex problems.
+Hola, soy Fabri Arzaguet. Como desarrollador de software apasionado por las startups, me apasiona convertir ideas en productos impactantes, desarrollé sistemas escalables de procesamiento de datos que transformaron los datos del sector contable. Mi formación en Electronica y Telecomunicaciones aporta una perspectiva analítica a los nuevos retos. Me especializo en tecnologías modernas y destaco por simplificar problemas complejos.
 
-Tech enthusiast • People Person • Sports Junkie • Meditator
