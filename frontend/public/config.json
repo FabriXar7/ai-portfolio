@@ -19,29 +19,29 @@
     "intro": {
       "cards": [
         {
-          "title": "Years of Growth",
-          "description": "Documenting my life's journey",
+          "title": "Años de crecimiento",
+          "description": "Documentando el viaje de mi vida",
           "icon": "Brain"
         },
         {
-          "title": "Knowledge Collection",
-          "description": "My insights from books, podcasts, blogs and social media posts",
+          "title": "Colección de conocimientos",
+          "description": "Mis conocimientos extraídos de libros, podcasts, blogs y publicaciones en redes sociales.",
           "icon": "BookOpen"
         },
         {
-          "title": "AI Conversations",
-          "description": "Based on my real experince and content",
+          "title": "Conversaciones sobre mi con una IA",
+          "description": "Basado en mi experiencia real y contenidos.",
           "icon": "MessageSquareText"
         }
       ],
       "paragraphs": [
-        "For years, I've been documenting my journey. This space is where I share the intersection of my professional expertise and personal growth.",
-        "Using my authentic writings and reflections, you can explore my documented insights and experiences. While AI isn't perfect, I hope it will share my story as genuinely as possible."
+        "Llevo años documentando mi trayectoria. Este espacio es donde comparto la intersección de mi experiencia profesional y mi crecimiento personal..",
+        "Utilizando mis escritos y reflexiones auténticos, puedes explorar mis perspectivas y experiencias documentadas. Aunque la IA no es perfecta, espero que comparta mi historia con la mayor sinceridad posible."
       ]
     }
   },
   "chat": {
-    "inputPlaceholder": "Ask me anything about Fabrix...",
-    "initialMessage": "Hey there! 👋 I'm Fabri'x AI assistant, I have access to his writings, and life insights. Feel free to ask and explore about his professional path or personal growth!"
+    "inputPlaceholder": "Pregúntame cualquier cosa sobre Fabrix...",
+    "initialMessage": "¡Hola! Soy el asistente de IA de Fabri'x y tengo acceso a sus escritos y reflexiones. ¡No dudes en preguntar y explorar su trayectoria profesional o crecimiento personal!"
   }
 } 
