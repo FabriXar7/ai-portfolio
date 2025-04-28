@@ -12,7 +12,7 @@ export const useMessages = () => {
   // Load the initial message from the configuration
   useEffect(() => {
     const chatConfig = getChatConfig();
-    const initialMessage = chatConfig?.initialMessage || 'Hello! How can I help you today?';
+    const initialMessage = chatConfig?.initialMessage || 'Hola! En que puedo ayudarlo hoy?';
     
     const message = { 
       role: 'assistant', 
