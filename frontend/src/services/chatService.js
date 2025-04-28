@@ -35,14 +35,14 @@ export class ChatService {
               callbacks.onChunk(fullMessage);
               await new Promise(resolve => setTimeout(resolve, 30));
             } catch (e) {
-              console.error('Error parsing streaming response:', e);
+              console.error('Error al analizar la respuesta de streaming:', e);
             }
           }
         }
       }
     } catch (e) {
-      console.error('Error reading stream:', e);
-      throw new Error('Error processing response stream');
+      console.error('Error al leer el stream:', e);
+      throw new Error('Error procesando la respuesta del stream');
     }
   }
 
@@ -51,11 +51,11 @@ export class ChatService {
     if (response.status === 429) {
       return {
         isRateLimit: true,
-        message: errorData.friendly_message || "You've reached the rate limit. Please wait before sending more messages.",
+        message: errorData.friendly_message || "Has alcanzado el límite de velocidad. Espera antes de enviar más mensajes.",
         retryAfter: errorData.retry_after
       };
     }
-    throw new Error(errorData.detail || 'Failed to send message');
+    throw new Error(errorData.detail || 'Fallo el envio del mensaje');
   }
 
   static async sendMessage(chatRequest) {
