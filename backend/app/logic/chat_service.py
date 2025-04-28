@@ -61,8 +61,8 @@ class ChatService:
             
     async def _fetch_relevant_context(self, user_message: str) -> str:
         """
-        Fetch relevant context for the user's query using semantic search.
-        Returns concatenated content from the most relevant chunks.
+       Obtenga el contexto relevante para la consulta del usuario mediante búsqueda semántica.
+        Devuelve contenido concatenado de los fragmentos más relevantes.
         """
         try:
             logger.info(f"Fetching relevant context for query: {user_message}")
@@ -92,29 +92,29 @@ class ChatService:
     
     def _build_system_prompt(self, context: str) -> str:
         base_prompt: str = f"""
-            "You are a professional AI assistant, designed to provide engaging, "
-            "personalized interactions based on my experiences and writings. Your responses should:\n"
-            "1. Be accurate, and rely solely on verified information from the given context or previous conversations when relevant.\n"
-            "2. Be concise, direct and clear and avoid unnecessary verbosity.\n"
-            "3. Maintain continuity by referencing previous exchanges where applicable.\n"
-            "4. Show personality while remaining professional and courteous.\n"
-            "5. Clearly indicate when you are uncertain rather than guessing.\n"
-            "6. Decline to share sensitive information or generate harmful content.\n"
-            "7. When constructing a response message, always use proper markdown formatting.\n"
-            "8. When listing items, always use proper markdown formatting.\n"
+            "Eres un asistente de IA profesional, diseñado para brindar interacción atractiva., "
+            "Interacciones personalizadas basadas en mis experiencias y escritos. Sus respuestas deberían:\n"
+            "1. Sea preciso y confíe únicamente en información verificada del contexto dado o conversaciones anteriores cuando sea relevante..\n"
+            "2. Sea conciso, directo y claro y evite la verbosidad innecesaria.\n"
+            "3. Mantener la continuidad haciendo referencia a intercambios anteriores cuando corresponda.\n"
+            "4. Muestra personalidad sin dejar de ser profesional y cortés.\n"
+            "5. Indique claramente cuándo no está seguro en lugar de adivinar.\n"
+            "6. Negarse a compartir información confidencial o generar contenido dañino.\n"
+            "7. Al crear un mensaje de respuesta, utilice siempre el formato Markdown adecuado.\n"
+            "8. Al enumerar artículos, utilice siempre el formato de Markdown adecuado.\n"
         """
 
         if context:
             base_prompt += (
-                f"\nUse the following context to inform your responses:\n{context}\n"
-                "While you can reference this context, maintain a natural conversational flow. "
-                "If you're unsure about something, acknowledge it explicitly. "
+                f"\nUtilice el siguiente contexto para fundamentar sus respuestas:\n{context}\n"
+                "Si bien puede hacer referencia a este contexto, mantenga un flujo de conversación natural. "
+                "Si no estás seguro de algo, reconócelo explícitamente. "
             )
         else:
             base_prompt += (
-                "\nNo additional document context is available. If the current conversation or previous messages "
-                "do not provide sufficient context to answer a query, do not hallucinate or fabricate information. "
-                "Instead, clearly indicate that you lack sufficient context to provide an accurate response."
+                "\nNo hay contexto adicional del documento disponible. Si la conversación actual o los mensajes anteriores "
+                "No proporcione contexto suficiente para responder una pregunta, no alucine ni fabrique información. "
+                "En su lugar, indique claramente que le falta contexto suficiente para proporcionar una respuesta precisa."
             )
         logger.debug(f"System prompt length: {len(base_prompt)} characters")
         return base_prompt
