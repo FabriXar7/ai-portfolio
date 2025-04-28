@@ -1,14 +1,14 @@
-# Configuration System
+# Sistema de configuración
 
-This document explains the configuration system used in the AI Portfolio project. The configuration system allows you to customize the content of your portfolio without modifying the code.
+Este documento explica el sistema de configuración utilizado en el proyecto AI Portfolio. Este sistema permite personalizar el contenido del portafolio sin modificar el código.
 
-## Overview
+## Descripción general
 
-The project uses a single `config.json` file in the `public` directory to store all configuration values. This file is essential for the application to function properly. The frontend requires this file to be present and will display an error message if it cannot be found.
+El proyecto utiliza un único archivo `config.json` en el directorio `public` para almacenar todos los valores de configuración. Este archivo es esencial para el correcto funcionamiento de la aplicación. El frontend requiere que este archivo esté presente y mostrará un mensaje de error si no se encuentra.
 
-## Configuration File Structure
+## Estructura del archivo de configuración
 
-The `config.json` file has the following structure:
+El archivo `config.json` tiene la siguiente estructura:
 
 ```json
 {
@@ -31,44 +31,44 @@ The `config.json` file has the following structure:
     "intro": {
       "cards": [
         {
-          "title": "Feature 1",
-          "description": "Description of feature 1",
+          "title": "Característica 1",
+          "description": "Descripción de la característica 1",
           "icon": "Brain"
         },
         {
-          "title": "Feature 2",
-          "description": "Description of feature 2",
+          "title": "Característica 2",
+          "description": "Descripción de la característica 2",
           "icon": "BookOpen"
         },
         {
-          "title": "Feature 3",
-          "description": "Description of feature 3",
+          "title": "Característica 3",
+          "description": "Descripción de la característica 3",
           "icon": "MessageSquareText"
         }
       ],
       "paragraphs": [
-        "Main paragraph about yourself.",
-        "Secondary paragraph with additional information."
+        "Párrafo principal sobre ti.",
+        "Párrafo secundario con información adicional."
       ]
     }
   },
   "chat": {
-    "inputPlaceholder": "Ask me anything about Your Name...",
-    "initialMessage": "Hey there! 👋 I'm Your Name's AI assistant, I have access to their writings, and life insights. Feel free to ask and explore about their professional path or personal growth!"
+    "inputPlaceholder": "Pregúntame cualquier cosa sobre Su Nombre...",
+    "initialMessage": "¡Hola! Soy la asistente de inteligencia artificial de (tu nombre). Tengo acceso a los datos de trabajos y curriculum vitae. ¡No dudes en preguntar y explorar su trayectoria profesional o crecimiento personal!"
   }
 }
 ```
 
-## How to Customize
+## Cómo personalizar
 
-1. Edit the `config.json` file in the `public` directory
-2. Update the values to match your information
-3. Restart the development server or rebuild the application
+1. Edite el archivo `config.json` en el directorio `public`.
+2. Actualice los valores para que coincidan con su información.
+3. Reinicie el servidor de desarrollo o reconstruya la aplicación.
 
-## Technical Implementation
+## Implementación técnica
 
 
-The frontend uses a configuration loader that fetches the `config.json` file and provides access to the configuration values through React hooks and utility functions. The configuration is loaded when the application starts and is cached for subsequent access.
+El frontend utiliza un cargador de configuración que obtiene el archivo `config.json` y proporciona acceso a los valores de configuración mediante ganchos de React y funciones de utilidad. La configuración se carga al iniciar la aplicación y se almacena en caché para su posterior acceso.
 
-If the configuration file cannot be loaded, the application will display an error message to the user, indicating that the `config.json` file is required.
+Si no se puede cargar el archivo de configuración, la aplicación mostrará un mensaje de error al usuario indicando que se requiere el archivo `config.json`.
 
