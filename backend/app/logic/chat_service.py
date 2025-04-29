@@ -56,7 +56,7 @@ class ChatService:
             logger.error(f"Error in stream_chat: {str(e)}")
             raise HTTPException(
                 status_code=500,
-                detail="An error occurred while processing your request"
+                detail="Se produjo un error al procesar su solicitud."
             )
             
     async def _fetch_relevant_context(self, user_message: str) -> str:
@@ -65,7 +65,7 @@ class ChatService:
         Devuelve contenido concatenado de los fragmentos más relevantes.
         """
         try:
-            logger.info(f"Fetching relevant context for query: {user_message}")
+            logger.info(f"Obtener contexto relevante para la consulta: {user_message}")
             query_embedding: List[float] = self.embeddings.embed_query(user_message)
             chunks: List[DocumentChunk] = await self.db_handler.search_similar_chunks(
                 query_embedding,
@@ -73,14 +73,14 @@ class ChatService:
             )
             
             if not chunks:
-                logger.info("No relevant context found for query")
+                logger.info("No se encontró ningún contexto relevante para la consulta")
                 return ""
             
             context = ""
             for chunk in chunks:    
                 logger.info(f"Chunk: {chunk.content}")
                 context += f"{chunk.content}\n\n"
-            logger.info(f"Found {len(chunks)} relevant chunks for context")
+            logger.info(f"Found {len(chunks)} fragmentos relevantes para el contexto")
             
             return context
             
