@@ -9,7 +9,7 @@ export const BlogSection = () => {
       className="flex flex-col items-center justify-center min-h-[50vh]"
     >
       <h1 className="text-4xl font-bold mb-4">Blog</h1>
-      <p className="text-gray-400">Coming Soon!</p>
+      <p className="text-gray-400">Proximamente!</p>
     </motion.div>
   )
 } 
