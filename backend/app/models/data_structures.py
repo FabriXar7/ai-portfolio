@@ -57,7 +57,7 @@ class RateLimitResponse(BaseModel):
                 "type": "chat_rate_limit_exceeded",
                 "limit": "60/minute",
                 "retry_after": 30,
-                "friendly_message": "You're sending messages too quickly! You can send another message in 30 seconds."
+                "friendly_message": "¡Estás enviando mensajes demasiado rápido! Puedes enviar otro mensaje en 30 segundos."
             }
         }
         
