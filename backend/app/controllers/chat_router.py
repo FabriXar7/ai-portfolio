@@ -19,11 +19,11 @@ class ChatRouter:
 
     async def _home(self):
         """Home endpoint"""
-        return {"Data": "Working!"}
+        return {"Data": "Trabajando!"}
 
     async def _health_check(self):
         """Health check endpoint"""
-        return {"status": "healthy"}
+        return {"estado": "saludable"}
 
     async def _chat(self, chat_request: ChatRequest) -> StreamingResponse:
         """Chat endpoint that streams responses"""
@@ -35,10 +35,10 @@ class ChatRouter:
             return response
 
         except Exception:
-            logger.exception("Unexpected error during chat")
+            logger.exception("Error no esperado durante el chat")
             raise HTTPException(
                 status_code=500,
-                detail="An internal server error occurred."
+                detail="Un error interno a ocurrido."
             )
 
     def add_routes(self):
