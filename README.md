@@ -1,4 +1,4 @@
-# Portafolio interactivo de IA 🤖
+# Curriculum interactivo con IA 🤖
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -9,7 +9,7 @@ Crea tu propio portafolio de conversaciones atractivo, impulsado por IA. Este pr
 
 ## ✨ Características principales
 
-- 🤖 **Asistente interactiva de inteligencia artificial**: Involucre a los visitantes con conversaciones personalizadas y adaptadas al contexto.
+- 🤖 **Asistente interactivo de inteligencia artificial**: Involucre a los visitantes con conversaciones personalizadas y adaptadas al contexto.
 - 🚀 **Transmisión en tiempo real**: Experiencia fluida, similar a un chat, con respuestas en tiempo real
 - 🎨 **Interfaz de usuario moderna**: Diseño limpio y responsivo centrado en la conversación.
 - 🔄 **Fácil de personalizar**: Crea tu propia plantilla y modifícala para tu marca personal.
