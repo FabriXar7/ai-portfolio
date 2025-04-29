@@ -44,13 +44,13 @@ export const navConfig = {
 export const sections = {
   about: {
     icon: BookOpen,
-    title: 'About Me',
+    title: 'Sobre mi',
     path: '/about-me',
     color: 'from-blue-500 to-cyan-500'
   },
   projects: {
     icon: Code,
-    title: 'Projects',
+    title: 'Proyectos',
     path: '/projects',
     color: 'from-emerald-500 to-green-500'
   },
@@ -58,6 +58,6 @@ export const sections = {
     icon: Blog,
     title: 'Blog',
     path: '/blog',
-    color: 'from-pink-500 to-rose-500'
+    color: 'from-blue-500 to-cyan-500'
   }
 } 
