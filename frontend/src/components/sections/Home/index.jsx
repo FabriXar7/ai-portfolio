@@ -27,7 +27,7 @@ export const HomeSection = () => {
             alt={personalInfo.name}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-transparent" />
         </div>
         <motion.div 
           className="absolute -bottom-2 -right-2 w-10 h-10 md:w-12 md:h-12 bg-blue-500 rounded-full flex items-center justify-center"
@@ -42,7 +42,7 @@ export const HomeSection = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.4 }}
-        className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-blue-400 to-pink-600 bg-clip-text text-transparent leading-relaxed px-4 py-1"
+        className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-blue-400 to-green-600 bg-clip-text text-transparent leading-relaxed px-4 py-1"
       >
         {personalInfo.name}
       </motion.h1>
