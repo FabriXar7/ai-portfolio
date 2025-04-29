@@ -16,7 +16,7 @@ class DocumentIndexer:
         return hashlib.md5(content.encode('utf-8')).hexdigest()
 
     def process_markdown(self, file_path: str) -> List[dict]:
-        """Process markdown file into chunks with embeddings"""
+        """Procesar el archivo Markdown en fragmentos con incrustaciones"""
         with open(file_path, 'r') as file:
             content = file.read()
             
