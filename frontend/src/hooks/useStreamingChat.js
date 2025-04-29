@@ -52,7 +52,7 @@ export const useStreamingChat = () => {
           } else if (hasStartedStreaming) {
             updateLastMessage(content, false)
           } else {
-            addMessage({ role: 'assistant', content: 'I apologize, but I couldn\'t generate a response.', isTyping: false })
+            addMessage({ role: 'assistant', content: 'Me disculpo, pero no pude generar una respuesta.', isTyping: false })
           }
         },
         shouldStop: () => shouldStopRef.current
