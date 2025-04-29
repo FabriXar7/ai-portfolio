@@ -61,7 +61,7 @@ export const ChatBox = () => {
           transition={{ duration: 0.5 }}
         >
           {/* Animated background gradients */}
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 via-pink-500/10 to-orange-500/10" />
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 via-green-500/10 to-orange-500/10" />
           <motion.div
             className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-transparent"
             animate={{
@@ -83,8 +83,8 @@ export const ChatBox = () => {
               whileHover={{ scale: 1.1, rotate: [0, -10, 10, 0] }}
               transition={{ duration: 0.5 }}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-pink-500 rounded-full blur-lg opacity-50" />
-              <div className="relative bg-gradient-to-br from-blue-500 to-pink-600 p-2 rounded-xl shadow-lg shadow-blue-500/20">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-green-500 rounded-full blur-lg opacity-50" />
+              <div className="relative bg-gradient-to-br from-blue-500 to-green-600 p-2 rounded-xl shadow-lg shadow-blue-500/20">
                 <Bot className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
               </div>
             </motion.div>
@@ -92,7 +92,7 @@ export const ChatBox = () => {
             {/* Title with sparkle */}
             <div className="flex items-center gap-1 sm:gap-2">
               <motion.h2 
-                className="text-sm sm:text-xl font-bold bg-gradient-to-r from-white via-blue-200 to-pink-200 bg-clip-text text-transparent"
+                className="text-sm sm:text-xl font-bold bg-gradient-to-r from-white via-blue-200 to-green-200 bg-clip-text text-transparent"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
@@ -120,7 +120,7 @@ export const ChatBox = () => {
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="relative flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 rounded-full bg-gradient-to-r from-blue-500/10 to-pink-500/10 border border-blue-500/20 ml-2 sm:ml-4 flex-shrink-0"
+            className="relative flex items-center gap-1 sm:gap-2 px-2 sm:px-3 py-1 rounded-full bg-gradient-to-r from-blue-500/10 to-green-500/10 border border-blue-500/20 ml-2 sm:ml-4 flex-shrink-0"
           >
             <motion.div
               className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-green-500"
