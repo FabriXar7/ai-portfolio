@@ -3,7 +3,7 @@ import { Github } from 'lucide-react'
 import { useGithubRepos } from '../../../hooks/useGithubRepos'
 
 export const ProjectsSection = () => {
-  const { repos, loading, error } = useGithubRepos('fabrixar7', 6)
+  const { repos, loading, error } = useGithubRepos('fabrixar7', 9)
 
   if (loading) return <div>Cargando...</div>
   if (error) return <div>Error cargando proyectos</div>
@@ -38,7 +38,7 @@ export const ProjectsSection = () => {
                 className="px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors inline-flex items-center gap-2"
               >
                 <Github className="w-4 h-4" />
-                <span>View Project</span>
+                <span>Ver Proyecto</span>
               </a>
             </div>
           </div>
