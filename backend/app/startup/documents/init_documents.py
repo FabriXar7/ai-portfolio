@@ -8,9 +8,8 @@ logger = get_logger(__name__)
 
 async def init_documents(document_indexer: DocumentIndexer, db_handler: DatabaseHandler):
     """
-    Process markdown documents found in the docs folder by reading each file,
-    chunking it with DocumentService and storing it into the database.
-    Updates existing documents if their content has changed.
+    Procesa los documentos de Markdown que se encuentran en la carpeta docs leyendo cada archivo, fragmentándolos con DocumentService y almacenándolos en la base de datos.
+    Actualiza los documentos existentes si su contenido ha cambiado.
     """
 
     docs_dir = Path(__file__).resolve().parents[3] / "docs"
