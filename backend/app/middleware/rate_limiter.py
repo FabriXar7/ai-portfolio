@@ -62,7 +62,7 @@ class RateLimiter:
                 type="rate_limit_exceeded",
                 limit=self.global_rate,
                 retry_after=retry_after,
-                friendly_message=f"You've reached the global rate limit. Please try again in {retry_after} seconds."
+                friendly_message=f"Has alcanzado el límite de velocidad global. Inténtalo de nuevo en {retry_after} segundos."
             )
         return None
 
@@ -78,7 +78,7 @@ class RateLimiter:
                 type="chat_rate_limit_exceeded",
                 limit=self.chat_rate,
                 retry_after=retry_after,
-                friendly_message="You're sending messages too quickly! Please wait before sending another message."
+                friendly_message="¡Estás enviando mensajes demasiado rápido! Espera antes de enviar otro mensaje."
             )
         return None
 
