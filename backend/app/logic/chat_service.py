@@ -34,7 +34,7 @@ class ChatService:
                 model=self.llm_model,
                 messages=messages,
                 stream=True,
-                temperature=0,
+                temperature=1,
             )
             
             complete_response = ""
